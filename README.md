@@ -4,7 +4,7 @@
 ## 后台数据库
 mysql数据库，一些需要计算的数据存放到mysql数据库中，mysql数据库可以跑在docker里，此外，docker image包含hbase列数数据库，同样可以利用python对接hbase操作数据。
 ## 前后端交互
-利用表单和ajax技术，进行交互。
+利用表单和ajax技术，进行交互。监控页面中使用了websocket将后台的实时监控数据与前端的echart框架结合，将计算机的硬件信息在首页上实时展现。
 ## docker调度
 通过异步线程来将前端接收到的指令与docker api结合
 ## 决策支持
